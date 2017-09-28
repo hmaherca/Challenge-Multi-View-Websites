@@ -1,0 +1,30 @@
+/*text style begins*/
+h1{
+    color: red;
+}
+
+h2{
+    color: red;
+}
+
+h1, h2, p, button{
+    font-family: sans-serif;
+}
+
+/*text style ends*/
+
+button{
+    height: 37px;
+    width: 149px;
+    font-size: 1.5em;
+    color: red;
+}
+
+img{
+    width:100%;
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+}
