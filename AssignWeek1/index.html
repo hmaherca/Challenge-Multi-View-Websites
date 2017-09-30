@@ -1,98 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Snarky Pound</title>
-    <link   rel="stylesheet"
-            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
-            integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
-            crossorigin="anonymous">
-    
-    <style>
-        .heading {
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: center;
-        }
-        .subheading {
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: center;
-        }
-        .backgroundpic {
-            position: absolute;
-            background-image: url(./bandLogo.jpeg);
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: cover;
-            background-color: rgba(255,255,255,0.6);
-            background-blend-mode: lighten;
-            width: 100%;
-            height: 100%;
-        }
-        .grouppic {
-            border: 2px solid;
-            margin: 0px auto;
-            width: 40%;
-            height: 40%;
-
-        }
-        .hometext {
-            color: azure;
-        }
-        .backgroundcolor {
-            background-color: dimgray;
-        }
-    </style>
-    
+    <title>The Pound</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./Styles/style.css">
 </head>
-<body>
-        <!-- Navigation Bar: Bio, News, Music, Videos, About  -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="./index.html">The Pound</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navibar" aria-controls="navibar" aria-expanded="false" aria-label="Toggle navigation">
+
+<body class="backgroundpic">
+    <!-- Navigation Bar: Bio, News, Music, Videos, About  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="./index.html">The Pound</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navibar" aria-controls="navibar" aria-expanded="false"
+            aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            
-            <div class="collapse navbar-collapse" id="navibar">
-                <ul class="navbar-nav justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Bio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Music</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Videos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <div class="backgroundpic">
-            <h1 class='heading'>THE POUND</h1>
-            <h2 class='subheading'>The Place for Fans of Snarky Puppy</h2>
-            <div>
-                <img class="grouppic" src="groupPic.jpg">
-            </div>
-            <p class='subheading'>
-                Welcome to the Pound! A place where you'll find the latest news about Snarky Puppy.
-                Make sure to browse around to see why this group is the winner of Grammies
-                in two different sections of music, and why they fit your kind of sound.
-            </p>
-            
-            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
-            integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
-            crossorigin="anonymous">
-        </script>
+
+        <div class="collapse navbar-collapse" id="navibar">
+            <ul class="navbar-nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="./bio.html">Bio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./discography.html">Discography</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Videos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About</a>
+                </li>
+            </ul>
         </div>
-    </div>    
+    </nav>
+    <div>
+        <h1 class='heading prisonfont'>THE POUND</h1>
+        <h2 class='subheading'>The Place for Fans of Snarky Puppy</h2>
+        <div class="container">
+            <div class="row">
+                <img class="grouppic" src="./Pictures/groupPic.jpg">
+            </div>
+        </div>
+        <h2 class="subheading">
+            Make sure you sound off in the comment box below!
+        </h2>
+        <form class="container">
+            <div class="form-group col-lg-6 centerObject">
+                <textarea class="form-control" placeholder="Title" id="title" rows="1"
+                    maxlength="50"></textarea>
+                <textarea class="form-control" placeholder="Start typing..." id="soundoff" rows="4"
+                    maxlength="500"></textarea>
+                <button type="button" class="btn btn-dark commentSpacing" id="bark">Bark!</button>
+            </div>
+        </form>
+        
+        <div class="container spacing width">
+            <h3 class="subheading prisonfont">Sounds From the Pound</h3>
+        </div>
+        
+        <div class="row" id="comments">
+           <!-- Once the "Bark!" button is pressed, cards will be appended to
+                this section. -->
+        </div>
+              
+        <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+            crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(() => {
+                //This function gets the values from the forms and then clears the forms.
+                $('#bark').click(() => {
+                    var myTitle = document.getElementById('title').value; 
+                    document.getElementById('title').value='';
+                    var myComment = document.getElementById('soundoff').value;
+                    document.getElementById('soundoff').value='';
+
+                    //This long line of code appends a card to hold the title and comments from people who give their input.
+                    $('#comments').prepend($('<div class="col-sm-6 commentSpacing"><div class="card"><div class="card-body"><h4 class="card-title">'+myTitle+'</h4><p class="card-text">'+myComment+'</p></div></div></div>'));
+                })
+            })
+        </script>
+    </div>
+
 </body>
+
 </html>
